@@ -4,9 +4,6 @@
 
 This project is a simple web application that allows users to manage customer data using a set of APIs. The application provides basic functionalities to authenticate users, create, read, update, and delete customer records.
 
-## Getting Started
-
-To run the application, you need to have access to the API endpoints provided by `https://qa2.sunbasedata.com`. These APIs require Bearer authentication, and a valid token is required for subsequent API calls.
 
 ### Prerequisites
 
