@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Management</title>
+</head>
+<body>
+    <h1>Customer Management</h1>
+
+    <form id="loginForm">
+        <label for="login_id">Email:</label>
+        <input type="text" id="login_id" name="login_id" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+
+    <h2>Create New Customer</h2>
+    <form id="createCustomerForm">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+        <br>
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" required>
+        <br>
+		<label for="city">City</label>
+        <input type="text" id="city" name="city" required>
+		<br>
+		<label for="state">State</label>
+        <input type="text" id="state" name="state" required>
+		<br>
+		<label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+		<br>
+		<label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" required>
+		<br>
+        <!-- Add other customer attributes here -->
+        <button type="submit">Create Customer</button>
+    </form>
+
+    <h2>Customer List</h2>
+    <button id="getCustomerList">Get Customer List</button>
+    <table id="customerTable">
+        <!-- Customer data will be displayed here -->
+    </table>
+
+    <h2>Delete Customer</h2>
+    <form id="deleteCustomerForm">
+        <label for="uuid">Customer UUID:</label>
+        <input type="text" id="uuid" name="uuid" required>
+        <br>
+        <button type="submit">Delete Customer</button>
+    </form>
+
+    <h2>Update Customer</h2>
+    <form id="updateCustomerForm">
+        <label for="update_uuid">Customer UUID:</label>
+        <input type="text" id="update_uuid" name="uuid" required>
+        <br>
+        <!-- Add fields to update here -->
+        <button type="submit">Update Customer</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
